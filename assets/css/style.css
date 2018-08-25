@@ -95,6 +95,18 @@
         }
 
       
+/* p{
+    background-color:#4aaaa5;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    bottom: 90px;
+    width: 280px;
+    height: 30px;
+    margin-left: 0px;
+
+} */
         section{
             color: #777777;
             border: 5px solid #dddddd;
@@ -108,6 +120,7 @@
             background-color: #ffffff;
            
         }
+
 
         p {
             line-height: 40px;
@@ -153,122 +166,115 @@
             text-align: center;
             color: white;
            
-        }
-        .cat {
-            background-color:#4aaaa5;
-            color: white;
-            padding: 15px;
-            width: 115px;
-            font-weight: bold;
-            font-size: 20px;
-        }
+ }
+ .cat {
+ background-color:#4aaaa5;
+ color: white;
+ padding: 15px;
+width: 115px;
+ font-weight: bold;
+ font-size: 20px;
+ }
 
-        .bird {
-            background-color:#4aaaa5;
-            color: white;
-        }
+ .bird {
+background-color:#4aaaa5;
+color: white;
+}
 
-        input {
-          padding: 8px;
-          width: 500px;
-          border: 1px solid black;
-      }
-      textarea {
-          border: 1px solid black;
-      }
+ input {
+ padding: 8px;
+  width: 500px;
+ border: 1px solid black;
+ }
+ textarea {
+ border: 1px solid black;
+}
 
-      .what {
-          border:10px solid red;
-          float:left;
-          position: absolute;
-          text-align: center;
-      }
+ .what {
+ border:10px solid red;
+ float:left;
+ position: absolute;
+ text-align: center;
+}
       
-     
-        .content {
-
-            float: left;
-            width: 200px;
-            height: 200px;
-            cursor: crosshair;
-            border: 5px solid #FFEEB2;
-            transition: 1s;
-            margin: 15px 30px;
-            top: 50px;
-            transition: all 1s;
-           
-        }
-        .content:hover {
-            transform: scale(2);
-         
-        }
-  
-      
-        #abc {
-           background-color: green;
-           width: 20px;
-           height: 50px;
-       }
-
-
     
-        #td1, #td2, #td3, #td4, #td5, #td6 {
-            position: relative;
-        }
+    
 
+.pp{
+   background-color:#4aaaa5;
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    /* bottom: 0px; */
+    top: 210px;
+    width: 285px;
+    height: 50px;
+    margin-left: 2px;
+    
 
-        .text {
-            position: absolute;
-            top:70%;
-            width: 73%;
-            height: 50px;
-            background-color: #4aaaa5;
-            color: #ffffff;
-            font-weight: bold;
-            font-family: fantasy;
-            text-align: center;
-            margin-left: 35px;
-            padding: 10px;
-            font-size: 15px;
+}
+
+.content, .content1{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin: 15px 0px;
    
-        }
+    
+}
+.column {
+  float: left;
+  width: 200%;
+  padding: 5px;
+  margin:15px 30px;
+  height: 200px;
+  width:260px;
+ 
+ 
+}
 
 
-        footer{
-            background-color:#666666;
-            padding: 10px;
-            margin-top: 400px;
-            border-top: 5px solid #4aaaa5;
-            text-align: center;
-            color: white;
-            clear:both;
-            position: relative;
 
-        }
+footer{
+background-color:#666666;
+padding: 10px;
+ margin-top: 400px;
+border-top: 5px solid #4aaaa5;
+text-align: center;
+color: white;
+clear:both;
+ position: relative;
+
+}
 
 
-        @media screen and (max-width:959px) {
-            h1 {
-                width:100%;
+ @media screen and (max-width:980px), (max-width:768px) and (max-width:640px) {
+ h1 {
+ width:100%;
                 
-            }
+ }
 
-            #wrap {
+ #wrap {
                 width:100%;
             }
 
-            ul {
-                width:100%;
-                position: relative;
-                bottom:20px;
-            }
+ul {
+ width:100%;
+ position: relative;
+bottom:20px;
+ }
             
-            section {
-                width: 100%;
-                height: 100%;
-                margin-top: 16%;
-            }
-        }
+  section {
+   width: 100%;
+   height: 100%;
+    margin-top: 16%;
+   }
+   textarea, input {
+       width: 100%;
+   }
+   
+ }
 
       
 

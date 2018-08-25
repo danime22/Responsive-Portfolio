@@ -332,3 +332,28 @@ bottom:20px;
     top:125.6%;
 }
 }
+
+
+@media screen and (max-width:768px) {
+
+.pp {
+    top:481px;
+}
+
+.pp1 {
+    top:479px;
+}
+.ppp {
+    top: 711px;
+}
+
+.ppp1 {
+    top: 711px;
+}.pppp {
+    top: 943px;
+}
+.pppp1 {
+    top: 943px;
+}
+}
+

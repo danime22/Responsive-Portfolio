@@ -276,4 +276,33 @@ bottom:20px;
 .content:hover {
     transform: scale(2);
 }
+<<<<<<< HEAD
  
+=======
+}
+
+
+@media screen and (max-width:768px) {
+
+.pp {
+    top:481px;
+}
+
+.pp1 {
+    top:479px;
+}
+.ppp {
+    top: 711px;
+}
+
+.ppp1 {
+    top: 711px;
+}.pppp {
+    top: 943px;
+}
+.pppp1 {
+    top: 943px;
+}
+}
+
+>>>>>>> ecd8b5d56c37dbcc45eae82b0b9f4b2db5ced629
